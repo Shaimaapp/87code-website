@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="112" viewBox="0 0 360 112" role="img" aria-labelledby="logoTitle logoDesc">
+  <title id="logoTitle">87 CODE</title>
+  <desc id="logoDesc">شعار 87 CODE مع رقم 87 باللون الفضي وقوس برمجي برتقالي</desc>
+  <defs>
+    <linearGradient id="silver" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.42" stop-color="#b9c0ca"/>
+      <stop offset="0.7" stop-color="#f4f5f3"/>
+      <stop offset="1" stop-color="#7b838f"/>
+    </linearGradient>
+    <linearGradient id="darkMetal" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#323741"/>
+      <stop offset="0.45" stop-color="#07080a"/>
+      <stop offset="1" stop-color="#1b1f27"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff8a2b"/>
+      <stop offset="1" stop-color="#ff5a12"/>
+    </linearGradient>
+    <filter id="shadow" x="-20%" y="-30%" width="140%" height="160%">
+      <feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#000000" flood-opacity="0.42"/>
+    </filter>
+  </defs>
+  <rect width="360" height="112" rx="16" fill="#090a0d"/>
+  <path d="M24 24H12V88H24" fill="none" stroke="#d7dbe2" stroke-width="6" stroke-linecap="square" opacity="0.75"/>
+  <g filter="url(#shadow)">
+    <path d="M58 19H121C132.6 19 142 28.4 142 40C142 48.2 137.3 55.3 130.4 58.8C138.8 62.2 145 70.4 145 80C145 92.7 134.7 103 122 103H58C45.3 103 35 92.7 35 80C35 70.4 41.2 62.2 49.6 58.8C42.7 55.3 38 48.2 38 40C38 28.4 47.4 19 58 19ZM61 36C56.6 36 53 39.6 53 44C53 48.4 56.6 52 61 52H118C122.4 52 126 48.4 126 44C126 39.6 122.4 36 118 36H61ZM60 69C55 69 51 73 51 78C51 83 55 87 60 87H121C126 87 130 83 130 78C130 73 126 69 121 69H60Z" fill="url(#silver)"/>
+    <path d="M152 19H227L184 103H158L193.5 39H152V19Z" fill="url(#darkMetal)" stroke="url(#silver)" stroke-width="3"/>
+    <path d="M244 25H271C282 25 291 34 291 45V48H273V45C273 43 271 41 269 41H247C245 41 243 43 243 45V67C243 69 245 71 247 71H269C271 71 273 69 273 67V64H291V67C291 78 282 87 271 87H244C233 87 224 78 224 67V45C224 34 233 25 244 25Z" fill="#f2f4f7"/>
+    <path d="M300 18H315C332 18 346 32 346 49V63C346 80 332 94 315 94H300V77H315C323 77 329 71 329 63V49C329 41 323 35 315 35H300V18Z" fill="url(#orange)"/>
+    <path d="M320 18H348V35H320V18ZM320 77H348V94H320V77Z" fill="url(#orange)"/>
+  </g>
+  <text x="224" y="107" fill="#c8ced8" font-family="Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="3">CODE</text>
+</svg>
