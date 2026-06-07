@@ -219,6 +219,8 @@ a {
 }
 
 .language-switch {
+  position: relative;
+  z-index: 3;
   display: inline-grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   flex: 0 0 auto;
@@ -227,6 +229,7 @@ a {
   border-radius: var(--radius);
   background: rgba(255, 255, 255, 0.04);
   padding: 3px;
+  touch-action: manipulation;
 }
 
 .language-option {
@@ -240,6 +243,7 @@ a {
   font-weight: 800;
   line-height: 1;
   cursor: pointer;
+  touch-action: manipulation;
 }
 
 .language-option.is-active {
@@ -833,6 +837,7 @@ a {
 
   .nav-panel {
     position: fixed;
+    z-index: 1;
     inset: 68px 0 auto 0;
     display: grid;
     gap: 0;
@@ -908,12 +913,12 @@ a {
   }
 
   .language-switch {
-    min-width: 84px;
+    min-width: 104px;
     padding: 2px;
   }
 
   .language-option {
-    min-height: 32px;
+    min-height: 40px;
     font-size: 0.74rem;
   }
 
