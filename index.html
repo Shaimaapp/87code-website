@@ -6,7 +6,7 @@
     <title>87 CODE | حلول رقمية للشركات</title>
     <meta
       name="description"
-      content="87 CODE شركة تقنية في الكويت متخصصة في تصميم المواقع، تطوير التطبيقات، المتاجر الإلكترونية، أنظمة POS، الاستضافة، وحلول NFC و QR."
+      content="87 CODE شركة تقنية متخصصة في تصميم المواقع، تطوير التطبيقات، المتاجر الإلكترونية، أنظمة POS، الاستضافة، وحلول NFC و QR."
     >
     <meta name="theme-color" content="#0b0c0f">
     <meta property="og:title" content="87 CODE | حلول رقمية للشركات">
@@ -15,35 +15,43 @@
       content="نصمّم ونطوّر المواقع، التطبيقات، المتاجر الإلكترونية، وأنظمة الأعمال بأسلوب حديث واضح واحترافي."
     >
     <meta property="og:type" content="website">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700;800;900&family=Noto+Sans+Arabic:wght@500;600;700;800;900&display=swap" rel="stylesheet">
     <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
     <link rel="stylesheet" href="assets/styles.css">
     <script src="assets/script.js" defer></script>
   </head>
   <body>
-    <a class="skip-link" href="#main">تخطي إلى المحتوى</a>
+    <a class="skip-link" href="#main" data-i18n="skip.link">تخطي إلى المحتوى</a>
 
     <header class="site-header" data-header>
-      <nav class="nav-shell" aria-label="التنقل الرئيسي">
-        <a class="brand-link" href="#home" aria-label="87 CODE الرئيسية">
-          <img src="assets/logo-87code.svg" alt="شعار 87 CODE" width="156" height="48">
+      <nav class="nav-shell" aria-label="التنقل الرئيسي" data-i18n-aria-label="nav.label">
+        <a class="brand-link" href="#home" aria-label="87 CODE الرئيسية" data-i18n-aria-label="brand.aria">
+          <img src="assets/logo-87code.svg" alt="شعار 87 CODE" data-i18n-alt="logo.alt" width="156" height="48">
         </a>
 
-        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu">
-          <span class="sr-only">فتح القائمة</span>
+        <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-menu" aria-label="فتح القائمة" data-i18n-aria-label="menu.open">
+          <span class="sr-only" data-i18n="menu.open">فتح القائمة</span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
         </button>
 
         <div class="nav-panel" id="primary-menu" data-menu>
-          <a href="#about">عن 87 CODE</a>
-          <a href="#services">الخدمات</a>
-          <a href="#why">لماذا نحن</a>
-          <a href="#process">آلية العمل</a>
-          <a href="#contact">تواصل معنا</a>
+          <a href="#about" data-i18n="nav.about">عن الشركة</a>
+          <a href="#services" data-i18n="nav.services">الخدمات</a>
+          <a href="#why" data-i18n="nav.why">لماذا نحن</a>
+          <a href="#process" data-i18n="nav.process">آلية العمل</a>
+          <a href="#contact" data-i18n="nav.contact">تواصل معنا</a>
         </div>
 
-        <a class="button button-small button-primary header-cta" href="https://wa.me/96541218787" target="_blank" rel="noopener">
+        <div class="language-switch" role="group" aria-label="اختيار اللغة" data-i18n-aria-label="language.label">
+          <button class="language-option is-active" type="button" data-language="ar" aria-pressed="true">عربي</button>
+          <button class="language-option" type="button" data-language="en" aria-pressed="false">EN</button>
+        </div>
+
+        <a class="button button-small button-primary header-cta" href="https://wa.me/96541218787" target="_blank" rel="noopener" data-i18n="cta.whatsapp">
           تواصل واتساب
         </a>
       </nav>
@@ -53,35 +61,36 @@
       <section class="hero section" id="home" aria-labelledby="hero-title">
         <div class="hero-grid container">
           <div class="hero-copy reveal">
-            <h1 id="hero-title">نبرمج حضورك الرقمي بنفس قوة هوية 87 CODE</h1>
-            <p class="hero-text">
+            <p class="company-name" data-i18n="company.legal">شركة 87 كود لتصميم وبرمجة البرمجيات الخاصة</p>
+            <h1 id="hero-title" data-i18n="hero.title">نبرمج حضورك الرقمي</h1>
+            <p class="hero-text" data-i18n="hero.text">
               نصمّم ونطوّر المواقع، التطبيقات، المتاجر الإلكترونية، وأنظمة الأعمال بأسلوب حديث واضح واحترافي يساعد شركتك على الظهور والنمو وزيادة المبيعات.
             </p>
             <div class="hero-actions">
-              <a class="button button-primary" href="https://wa.me/96541218787" target="_blank" rel="noopener">
+              <a class="button button-primary" href="https://wa.me/96541218787" target="_blank" rel="noopener" data-i18n="cta.whatsapp">
                 تواصل واتساب
               </a>
-              <a class="button button-secondary" href="#services">استعرض الخدمات</a>
+              <a class="button button-secondary" href="#services" data-i18n="cta.services">استعرض الخدمات</a>
             </div>
-            <dl class="hero-points" aria-label="مميزات 87 CODE">
+            <dl class="hero-points" aria-label="مميزات 87 CODE" data-i18n-aria-label="hero.points.label">
               <div>
-                <dt>تصميم</dt>
-                <dd>واجهات واضحة وسريعة</dd>
+                <dt data-i18n="hero.point.design.title">تصميم</dt>
+                <dd data-i18n="hero.point.design.text">واجهات واضحة وسريعة</dd>
               </div>
               <div>
-                <dt>تطوير</dt>
-                <dd>مواقع وتطبيقات وأنظمة</dd>
+                <dt data-i18n="hero.point.dev.title">تطوير</dt>
+                <dd data-i18n="hero.point.dev.text">مواقع وتطبيقات وأنظمة</dd>
               </div>
               <div>
-                <dt>دعم</dt>
-                <dd>استضافة ومتابعة فنية</dd>
+                <dt data-i18n="hero.point.support.title">دعم</dt>
+                <dd data-i18n="hero.point.support.text">استضافة ومتابعة فنية</dd>
               </div>
             </dl>
           </div>
 
-          <div class="hero-visual reveal" aria-label="هوية 87 CODE التقنية">
+          <div class="hero-visual reveal" aria-label="هوية 87 CODE التقنية" data-i18n-aria-label="hero.visual.label">
             <div class="bracket-frame">
-              <img class="hero-logo" src="assets/logo-87code.svg" alt="شعار 87 CODE" width="360" height="112">
+              <img class="hero-logo" src="assets/logo-87code.svg" alt="شعار 87 CODE" data-i18n-alt="logo.alt" width="360" height="112">
               <div class="code-lines" aria-hidden="true">
                 <span>{ website: ready }</span>
                 <span>{ app: scalable }</span>
@@ -101,14 +110,14 @@
       <section class="section about-section" id="about" aria-labelledby="about-title">
         <div class="container split-section">
           <div class="section-copy reveal">
-            <p class="section-label">عن الشركة</p>
-            <h2 id="about-title">87 CODE تبني حلول رقمية عملية للشركات</h2>
+            <p class="section-label" data-i18n="about.label">عن الشركة</p>
+            <h2 id="about-title" data-i18n="about.title">شركة 87 كود لتصميم وبرمجة البرمجيات الخاصة</h2>
           </div>
           <div class="text-panel reveal">
-            <p>
+            <p data-i18n="about.text">
               نعمل مع الشركات التي تريد موقعاً أسرع، تطبيقاً أوضح، متجراً يبيع، أو نظاماً يساعد الفريق على إدارة العمل اليومي. نركز على تجربة المستخدم، جودة التنفيذ، وسهولة التطوير المستقبلي.
             </p>
-            <a class="text-link" href="https://wa.me/96541218787" target="_blank" rel="noopener">تواصل واتساب</a>
+            <a class="text-link" href="https://wa.me/96541218787" target="_blank" rel="noopener" data-i18n="cta.whatsapp">تواصل واتساب</a>
           </div>
         </div>
       </section>
@@ -116,39 +125,39 @@
       <section class="section services-section" id="services" aria-labelledby="services-title">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="section-label">الخدمات</p>
-            <h2 id="services-title">حلول تغطي رحلة شركتك الرقمية</h2>
+            <p class="section-label" data-i18n="services.label">الخدمات</p>
+            <h2 id="services-title" data-i18n="services.title">حلول تغطي رحلة شركتك الرقمية</h2>
           </div>
           <div class="services-grid">
             <article class="service-card reveal">
               <span class="service-icon" aria-hidden="true">{01}</span>
-              <h3>تطوير المواقع الإلكترونية</h3>
-              <p>مواقع تعريفية وتجارية سريعة، متوافقة مع الجوال، ومهيأة للظهور بثقة.</p>
+              <h3 data-i18n="service.web.title">تطوير المواقع الإلكترونية</h3>
+              <p data-i18n="service.web.text">مواقع تعريفية وتجارية سريعة، متوافقة مع الجوال، ومهيأة للظهور بثقة.</p>
             </article>
             <article class="service-card reveal">
               <span class="service-icon" aria-hidden="true">{02}</span>
-              <h3>تطوير تطبيقات الجوال</h3>
-              <p>تطبيقات iOS و Android بواجهات واضحة وتجربة استخدام مصممة للنمو.</p>
+              <h3 data-i18n="service.app.title">تطوير تطبيقات الجوال</h3>
+              <p data-i18n="service.app.text">تطبيقات iOS و Android بواجهات واضحة وتجربة استخدام مصممة للنمو.</p>
             </article>
             <article class="service-card reveal">
               <span class="service-icon" aria-hidden="true">{03}</span>
-              <h3>المتاجر الإلكترونية</h3>
-              <p>متاجر منظمة للمنتجات والطلبات والدفع، مع تجربة شراء سلسة وواضحة.</p>
+              <h3 data-i18n="service.store.title">المتاجر الإلكترونية</h3>
+              <p data-i18n="service.store.text">متاجر منظمة للمنتجات والطلبات والدفع، مع تجربة شراء سلسة وواضحة.</p>
             </article>
             <article class="service-card reveal">
               <span class="service-icon" aria-hidden="true">{04}</span>
-              <h3>أنظمة POS للمطاعم والمتاجر</h3>
-              <p>حلول نقاط بيع تساعد على إدارة الطلبات، الفروع، المنتجات، والتقارير.</p>
+              <h3 data-i18n="service.pos.title">أنظمة POS للمطاعم والمتاجر</h3>
+              <p data-i18n="service.pos.text">حلول نقاط بيع تساعد على إدارة الطلبات، الفروع، المنتجات، والتقارير.</p>
             </article>
             <article class="service-card reveal">
               <span class="service-icon" aria-hidden="true">{05}</span>
-              <h3>حلول NFC و QR</h3>
-              <p>روابط ذكية، قوائم رقمية، بطاقات تعريفية، وتجارب تفاعل أسرع للعملاء.</p>
+              <h3 data-i18n="service.nfc.title">حلول NFC و QR</h3>
+              <p data-i18n="service.nfc.text">روابط ذكية، قوائم رقمية، بطاقات تعريفية، وتجارب تفاعل أسرع للعملاء.</p>
             </article>
             <article class="service-card reveal">
               <span class="service-icon" aria-hidden="true">{06}</span>
-              <h3>الاستضافة والدعم الفني</h3>
-              <p>استضافة، مراقبة، تحديثات، وحلول دعم تحافظ على استقرار مشروعك.</p>
+              <h3 data-i18n="service.hosting.title">الاستضافة والدعم الفني</h3>
+              <p data-i18n="service.hosting.text">استضافة، مراقبة، تحديثات، وحلول دعم تحافظ على استقرار مشروعك.</p>
             </article>
           </div>
         </div>
@@ -157,21 +166,21 @@
       <section class="section why-section" id="why" aria-labelledby="why-title">
         <div class="container split-section reverse">
           <div class="section-copy reveal">
-            <p class="section-label">لماذا 87 CODE</p>
-            <h2 id="why-title">تنفيذ واضح، هوية قوية، ونتيجة قابلة للقياس</h2>
+            <p class="section-label" data-i18n="why.label">لماذا 87 CODE</p>
+            <h2 id="why-title" data-i18n="why.title">تنفيذ واضح، هوية قوية، ونتيجة قابلة للقياس</h2>
           </div>
           <div class="why-list reveal">
             <div>
-              <h3>تصميم موجه للعميل</h3>
-              <p>نبني الواجهة حول ما يحتاجه زائر موقعك أو مستخدم تطبيقك، لا حول الزينة فقط.</p>
+              <h3 data-i18n="why.customer.title">تصميم موجه للعميل</h3>
+              <p data-i18n="why.customer.text">نبني الواجهة حول ما يحتاجه زائر موقعك أو مستخدم تطبيقك، لا حول الزينة فقط.</p>
             </div>
             <div>
-              <h3>هيكلة تقنية قابلة للتوسع</h3>
-              <p>نختار بنية مناسبة تساعد مشروعك على التطور بدون إعادة بناء متكررة.</p>
+              <h3 data-i18n="why.scale.title">هيكلة تقنية قابلة للتوسع</h3>
+              <p data-i18n="why.scale.text">نختار بنية مناسبة تساعد مشروعك على التطور بدون إعادة بناء متكررة.</p>
             </div>
             <div>
-              <h3>تواصل مباشر وواضح</h3>
-              <p>نرتب المتطلبات، المراحل، والتسليمات بشكل يجعل القرار والمتابعة أسهل.</p>
+              <h3 data-i18n="why.clear.title">تواصل مباشر وواضح</h3>
+              <p data-i18n="why.clear.text">نرتب المتطلبات، المراحل، والتسليمات بشكل يجعل القرار والمتابعة أسهل.</p>
             </div>
           </div>
         </div>
@@ -180,29 +189,29 @@
       <section class="section process-section" id="process" aria-labelledby="process-title">
         <div class="container">
           <div class="section-heading reveal">
-            <p class="section-label">آلية العمل</p>
-            <h2 id="process-title">من الفكرة إلى الإطلاق بخطوات منظمة</h2>
+            <p class="section-label" data-i18n="process.label">آلية العمل</p>
+            <h2 id="process-title" data-i18n="process.title">من الفكرة إلى الإطلاق بخطوات منظمة</h2>
           </div>
           <ol class="process-list">
             <li class="reveal">
               <span>01</span>
-              <h3>تحليل المتطلبات</h3>
-              <p>نحدد الهدف، الجمهور، الوظائف، والمحتوى المطلوب قبل بدء التنفيذ.</p>
+              <h3 data-i18n="process.one.title">تحليل المتطلبات</h3>
+              <p data-i18n="process.one.text">نحدد الهدف، الجمهور، الوظائف، والمحتوى المطلوب قبل بدء التنفيذ.</p>
             </li>
             <li class="reveal">
               <span>02</span>
-              <h3>تصميم التجربة</h3>
-              <p>نرسم شكل الصفحات والتدفق الأساسي حتى تكون الرحلة مفهومة وسريعة.</p>
+              <h3 data-i18n="process.two.title">تصميم التجربة</h3>
+              <p data-i18n="process.two.text">نرسم شكل الصفحات والتدفق الأساسي حتى تكون الرحلة مفهومة وسريعة.</p>
             </li>
             <li class="reveal">
               <span>03</span>
-              <h3>التطوير والاختبار</h3>
-              <p>نحوّل التصميم إلى منتج عملي، ثم نختبر الأداء، التجاوب، والروابط.</p>
+              <h3 data-i18n="process.three.title">التطوير والاختبار</h3>
+              <p data-i18n="process.three.text">نحوّل التصميم إلى منتج عملي، ثم نختبر الأداء، التجاوب، والروابط.</p>
             </li>
             <li class="reveal">
               <span>04</span>
-              <h3>الإطلاق والدعم</h3>
-              <p>نجهز النشر، نتابع الاستقرار، ونوفر الدعم الفني حسب احتياج المشروع.</p>
+              <h3 data-i18n="process.four.title">الإطلاق والدعم</h3>
+              <p data-i18n="process.four.text">نجهز النشر، نتابع الاستقرار، ونوفر الدعم الفني حسب احتياج المشروع.</p>
             </li>
           </ol>
         </div>
@@ -211,10 +220,10 @@
       <section class="section cta-section" aria-labelledby="cta-title">
         <div class="container cta-band reveal">
           <div>
-            <h2 id="cta-title">جاهز لتحويل فكرتك إلى حضور رقمي أقوى؟</h2>
-            <p>ابدأ برسالة واتساب، وسنرتب معك الخطوة المناسبة لموقعك، تطبيقك، متجرك، أو نظام عملك.</p>
+            <h2 id="cta-title" data-i18n="cta.title">جاهز لتحويل فكرتك إلى حضور رقمي أقوى؟</h2>
+            <p data-i18n="cta.text">ابدأ برسالة واتساب، وسنرتب معك الخطوة المناسبة لموقعك، تطبيقك، متجرك، أو نظام عملك.</p>
           </div>
-          <a class="button button-primary" href="https://wa.me/96541218787" target="_blank" rel="noopener">
+          <a class="button button-primary" href="https://wa.me/96541218787" target="_blank" rel="noopener" data-i18n="cta.whatsapp">
             تواصل واتساب
           </a>
         </div>
@@ -223,26 +232,26 @@
       <section class="section contact-section" id="contact" aria-labelledby="contact-title">
         <div class="container contact-grid">
           <div class="section-copy reveal">
-            <p class="section-label">تواصل معنا</p>
-            <h2 id="contact-title">ابدأ مشروعك مع 87 CODE</h2>
-            <p>أرسل لنا فكرة المشروع أو الخدمة التي تحتاجها، وسنرد عليك بخطوات واضحة.</p>
-            <a class="button button-primary" href="https://wa.me/96541218787" target="_blank" rel="noopener">
+            <p class="section-label" data-i18n="contact.label">تواصل معنا</p>
+            <h2 id="contact-title" data-i18n="contact.title">ابدأ مشروعك مع 87 CODE</h2>
+            <p data-i18n="contact.text">أرسل لنا فكرة المشروع أو الخدمة التي تحتاجها، وسنرد عليك بخطوات واضحة.</p>
+            <a class="button button-primary" href="https://wa.me/96541218787" target="_blank" rel="noopener" data-i18n="cta.whatsapp">
               تواصل واتساب
             </a>
           </div>
           <address class="contact-card reveal">
             <a href="https://wa.me/96541218787" target="_blank" rel="noopener">
-              <span>WhatsApp</span>
-              <strong dir="ltr">+965 4121 8787</strong>
+              <span data-i18n="contact.whatsapp.label">WhatsApp</span>
+              <strong dir="ltr" data-i18n="contact.whatsapp.value">+965 4121 8787</strong>
             </a>
             <a href="mailto:info@87code.com">
-              <span>Email</span>
-              <strong dir="ltr">info@87code.com</strong>
+              <span data-i18n="contact.email.label">Email</span>
+              <strong dir="ltr" data-i18n="contact.email.value">info@87code.com</strong>
             </a>
-            <a href="https://www.instagram.com/87code" target="_blank" rel="noopener">
-              <span>Instagram</span>
-              <strong dir="ltr">@87code</strong>
-            </a>
+            <div class="contact-row">
+              <span data-i18n="contact.address.label">العنوان</span>
+              <strong data-i18n="contact.address.value">الكويت - القبلة - شارع علي السالم - برج الجوهرة</strong>
+            </div>
           </address>
         </div>
       </section>
@@ -250,13 +259,13 @@
 
     <footer class="site-footer">
       <div class="container footer-grid">
-        <a class="footer-brand" href="#home" aria-label="87 CODE الرئيسية">
-          <img src="assets/logo-87code.svg" alt="شعار 87 CODE" width="140" height="44">
+        <a class="footer-brand" href="#home" aria-label="87 CODE الرئيسية" data-i18n-aria-label="brand.aria">
+          <img src="assets/logo-87code.svg" alt="شعار 87 CODE" data-i18n-alt="logo.alt" width="140" height="44">
         </a>
-        <p>حلول رقمية للشركات في الكويت: مواقع، تطبيقات، متاجر، POS، NFC، QR، واستضافة.</p>
+        <p data-i18n="footer.text">حلول رقمية للشركات: مواقع، تطبيقات، متاجر، POS، NFC، QR، واستضافة.</p>
         <div class="footer-actions">
-          <a href="https://wa.me/96541218787" target="_blank" rel="noopener">تواصل واتساب</a>
-          <span>© <span id="year"></span> 87 CODE</span>
+          <a href="https://wa.me/96541218787" target="_blank" rel="noopener" data-i18n="cta.whatsapp">تواصل واتساب</a>
+          <span>© <span id="year"></span> <span data-i18n="footer.brand">87 CODE</span></span>
         </div>
       </div>
     </footer>

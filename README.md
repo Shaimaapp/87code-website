@@ -1,6 +1,6 @@
 # 87 CODE Static Website
 
-موقع ثابت لشركة 87 CODE باللغة العربية وبتصميم RTL، جاهز للنشر على Cloudflare Pages بدون React أو Next.js أو npm أو أي خطوة بناء.
+موقع ثابت لشركة 87 CODE باللغتين العربية والإنجليزية، جاهز للنشر على Cloudflare Pages بدون React أو Next.js أو npm أو أي خطوة بناء.
 
 ## الملفات
 
@@ -22,4 +22,4 @@
 - WhatsApp: `+965 4121 8787`
 - WhatsApp link: `https://wa.me/96541218787`
 - Email: `info@87code.com`
-- Instagram: `@87code`
+- Address: `الكويت - القبلة - شارع علي السالم - برج الجوهرة`
