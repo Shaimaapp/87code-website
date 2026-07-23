@@ -21,5 +21,5 @@
 
 - WhatsApp: `+965 4121 8787`
 - WhatsApp link: `https://wa.me/96541218787`
-- Email: `info@87code.com`
+- Email: `info@87code.net`
 - Address: `الكويت - القبلة - شارع علي السالم - برج الجوهرة`

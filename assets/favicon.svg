@@ -1,6 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-labelledby="faviconTitle">
   <title id="faviconTitle">87 CODE</title>
-  <rect width="64" height="64" rx="12" fill="#08090b"/>
-  <path d="M12 14H30C36 14 40 18 40 24C40 28 38 31 34.8 32.8C39 34.4 42 38.4 42 43C42 49.2 37.2 54 31 54H12C5.8 54 1 49.2 1 43C1 38.4 4 34.4 8.2 32.8C5 31 3 28 3 24C3 18 7 14 12 14ZM13 24C11.4 24 10 25.4 10 27C10 28.6 11.4 30 13 30H30C31.6 30 33 28.6 33 27C33 25.4 31.6 24 30 24H13ZM13 39C11.1 39 10 40.1 10 42C10 43.9 11.1 45 13 45H31C32.9 45 34 43.9 34 42C34 40.1 32.9 39 31 39H13Z" fill="#d7dbe2"/>
-  <path d="M42 10H56V19H48V45H56V54H42V10Z" fill="#ff6a1a"/>
+  <defs>
+    <linearGradient id="silver" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="0.55" stop-color="#9ca3ad"/>
+      <stop offset="1" stop-color="#e2e5e9"/>
+    </linearGradient>
+    <linearGradient id="orange" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#ff9a42"/>
+      <stop offset="1" stop-color="#f05000"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="10" fill="#090a0c"/>
+  <path d="M10 10 3 15v12l-3 3v4l3 3v12l7 5v-9l-3-2v-9l-3-2 3-2v-9l3-2Z" fill="url(#silver)"/>
+  <path d="M16 12h19v11H23v5h11v9H23v5h12v11H16c-3 0-5-2-5-5V17c0-3 2-5 5-5Z" fill="url(#silver)"/>
+  <path d="M14 28h21v9H14Z" fill="#101115"/>
+  <path d="M36 12h19v10L45 53H33l11-30h-8Z" fill="#2c3036"/>
+  <path d="m56 10 7 5v12l3 3v4l-3 3v12l-7 5v-9l3-2v-9l3-2-3-2v-9l-3-2Z" fill="url(#orange)"/>
 </svg>
