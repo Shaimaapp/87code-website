@@ -1,6 +1,6 @@
-# 87 CODE Static Website
+# 87code Static Website
 
-موقع ثابت لشركة 87 CODE باللغتين العربية والإنجليزية، جاهز للنشر على Cloudflare Pages بدون React أو Next.js أو npm أو أي خطوة بناء.
+موقع ثابت لشركة 87code باللغتين العربية والإنجليزية، جاهز للنشر على Cloudflare Pages بدون React أو Next.js أو npm أو أي خطوة بناء.
 
 ## الملفات
 
